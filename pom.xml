@@ -39,7 +39,6 @@
 					<environment>Sandbox</environment>
 					<worker>1</worker>
 					<workerType>Micro</workerType>
-					<worker>1</worker>
 					<ojbectstoreV2>true</ojbectstoreV2>
 				</cloudHubDeployment>
 				</configuration>
