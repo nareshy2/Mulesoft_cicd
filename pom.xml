@@ -37,7 +37,8 @@
 					<password>Laahi123!</password>
 					<applicationName>cicd-demo</applicationName>
 					<environment>Sandbox</environment>
-					<workers>1</workers>
+					<workers>1</worker>
+					<worker>1</workers>
 					<workerType>Micro</workerType>
 					<worker>1</worker>
 					<ojbectstoreV2>true</ojbectstoreV2>
