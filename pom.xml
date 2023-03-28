@@ -36,7 +36,7 @@
 					<username>nareshy2</username>
 					<password>Laahi123!</password>
 					<applicationName>cicd-demo</applicationName>
-					<enviornment>Sandbox</enviornment>
+					<environment>Sandbox</environment>
 					<workers>1</workers>
 					<workerType>Micro</workerType>
 					<worker>1</worker>
