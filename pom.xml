@@ -10,7 +10,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<app.runtime>4.3.0</app.runtime>
+		<app.runtime>4.4.0</app.runtime>
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
 	</properties>
 	<build>
@@ -27,24 +27,31 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-				      <muleVersion>4.4.0</muleVersion>
-				      <uri>https://anypoint.mulesoft.com</uri>
-				      <username>nareshy2</username>
-				      <password>Laahi123!</password>
-				      <applicationName>test</applicationName>
-				      <environment>Sandbox</environment>   
-				      <workers>1</workers>
-				      <workerType>MICRO</workerType>
-				      <objectStoreV2>true</objectStoreV2>
-				      <properties>
-					    <maven.compiler.target>1.8</maven.compiler.target>
-					    <maven.compiler.source>1.8</maven.compiler.source>
-				      </properties>
+			      <muleVersion>4.3.0</muleVersion>
+			      <username>nareshyr2</username>
+			      <password>Naresh123!</password>
+			      <applicationName>mule-cicd-tutorial</applicationName>
+			      <environment>Sandbox</environment>   
+			      <workers>1</workers>
+			      <workerType>MICRO</workerType>
+			      <objectStoreV2>true</objectStoreV2>
+			      <properties>
+				    <maven.compiler.target>1.8</maven.compiler.target>
+				    <maven.compiler.source>1.8</maven.compiler.source>
+				</properties>
 			    </cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+		<distributionManagement>
+		<repository>
+			<id>MuleRepository</id>
+			<name>Corporate Repository</name>
+			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/7671e6a4-ad1e-4b5e-bfd8-5f5958f80ff1/maven</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
 	<dependencies>
         <dependency>
             <groupId>org.mule.connectors</groupId>
