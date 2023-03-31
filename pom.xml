@@ -29,7 +29,7 @@
 						<muleVersion>4.3.0</muleVersion>
 						<username>nareshyr2</username>
 						<password>Naresh123!</password>
-						<applicationName>mule-cicdl</applicationName>
+						<applicationName>mule-cicd</applicationName>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
