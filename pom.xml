@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.mule.tools.maven</groupId>
-	<artifactId>maven-test</artifactId>
+	<artifactId>maven-tutorial</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
-	<name>maven-tutorial</name>
+	<name>maven-cicd</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -30,7 +30,7 @@
 			      <muleVersion>4.3.0</muleVersion>
 			      <username>nareshyr2</username>
 			      <password>Naresh123!</password>
-			      <applicationName>mule-cicd</applicationName>
+			      <applicationName>mule-cicdl</applicationName>
 			      <environment>Sandbox</environment>   
 			      <workers>1</workers>
 			      <workerType>MICRO</workerType>
